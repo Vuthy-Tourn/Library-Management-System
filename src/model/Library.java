@@ -22,10 +22,10 @@ public class Library {
     public String findBookById(int id) {
         for (Book book : books) {
             if (book.getId() == id) {
-                return("Found book: " + book.getTitle()); // Return the matching book
+                return("Found book: " + book.getTitle());
             }
         }
-        return null; // Return null if no book matches
+        return null;
     }
 
 
